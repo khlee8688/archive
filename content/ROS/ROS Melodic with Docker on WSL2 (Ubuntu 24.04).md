@@ -107,7 +107,7 @@ Unity (ROS–TCP–Connector)
 ↓ TCP  
 Docker (ros_tcp_endpoint in Melodic container)  
 ↓  
-ROS 노드 (omo_r1 or etc.)  
+ROS Node (omo_r1 or etc.)  
 ```  
   
 ---  

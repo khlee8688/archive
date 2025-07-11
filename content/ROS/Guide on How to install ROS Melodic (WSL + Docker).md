@@ -36,7 +36,7 @@ https://wiki.ros.org/melodic/Installation/Ubuntu
   
 ### Method 2. Install with Docker (also available with the latest Ubuntu)  
   
-[ROS Melodic with Docker on WSL2 (Ubuntu 24.04)](https://www.notion.so/ROS-Melodic-with-Docker-on-WSL2-Ubuntu-24-04-226e6b6465d080c4b5fdd44c3b0df23d?pvs=21)  
+[ROS Melodic with Docker on WSL2 (Ubuntu 24.04)]
   
 → Distinguish between host and container when installing in Ubuntu.  
   
