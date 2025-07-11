@@ -1,0 +1,50 @@
+## Installation Order  
+  
+**Method 1: VirtualBox → Ubuntu → Docker → ROS Melodic**  
+  
+**Method 2: WSL 2 → Ubuntu (18.04 or 24.04) → Docker → ROS Melodic (this one)**  
+  
+> ROS Melodic can only be officially installed in Ubuntu 18.04 (Bionic).  
+>  
+>  
+> Docker installation method is used in the latest Ubuntu (20.04, 22.04, 24.04).  
+>  
+  
+---  
+  
+## 1. Download WSL, Ubuntu, Docker Desktop  
+  
+Download WSL2 → Ubuntu → Docker Desktop.  
+  
+[Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)  
+  
+[Start using Docker container in WSL](https://learn.microsoft.com/ko-kr/windows/wsl/tutorials/wsl-containers)  
+  
+---  
+  
+---  
+  
+## 2. How to install ROS Melodic  
+  
+### Method 1. Direct installation from Ubuntu 18.04  
+  
+Reference the official documentation   
+  
+https://www.omorobot.com/ros-pkg-install  
+  
+https://wiki.ros.org/melodic/Installation/Ubuntu  
+  
+### Method 2. Install with Docker (also available with the latest Ubuntu)  
+  
+[ROS Melodic with Docker on WSL2 (Ubuntu 24.04)](https://www.notion.so/ROS-Melodic-with-Docker-on-WSL2-Ubuntu-24-04-226e6b6465d080c4b5fdd44c3b0df23d?pvs=21)  
+  
+→ Distinguish between host and container when installing in Ubuntu.  
+  
+---  
+  
+## Organize  
+  
+| Installation Method                | Description                                                        |
+| ---------------------------------- | ------------------------------------------------------------------ |
+| Ubuntu 18.04 + Direct Installation | Standard, Most Compatible                                          |
+| Docker (with the latest Ubuntu)    | Isolated environment, available in different versions, recommended |
